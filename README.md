@@ -2,14 +2,17 @@ Overview
 
 Implementation of the Deep Soft-K means algorithm proposed in "Deep clustering: On the link between discriminative models and K-means" availbel at "https://arxiv.org/abs/1810.04246".
 
-Dependencies
+## Dependencies
 
 Package version used:
 python 3.5.4
 Theano 1.0.1
 Lasagne 0.2.dev1
 
-Train model
+pip install Theano==1.0.1
+pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
+
+## Train model
 
 To run the code for training MNIST-full for instance, you can run
 $ python soft_K_means.py --dataset "MNIST-full"
